@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: lightcoral;
+}
+
+#login{
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 600px;
+    padding: 20px;
+    margin: 100px auto;
+    height: 300px;
+}
+
+label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.entradas{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+button{
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px 5px;
+}
+
+.container-button{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+
+
+button:hover{
+    cursor: pointer;
+    text-decoration: underline solid;
+    font-weight: bold;
+}
+
+
