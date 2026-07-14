@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root{
+    --fonte-principal: 'Arial', sans-serif;
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -16,35 +20,33 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     width: 600px;
     padding: 20px;
-    margin: 100px auto;
+    margin: 150px auto;
     height: 300px;
 }
 
 label{
     display: block;
-    font-size: 20px;
+    font-family: var(--fonte-principal);
+    font-size: 23px;
     margin-bottom: 5px;
 }
 
 .entradas{
+    font-family: var(--fonte-principal);
     padding: 10px;
     margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 8px;
 }
 
 
 button{
     background-color: black;
     color: #fff;
-    padding: 5px;
+    font-size: 16px;
+    padding: 8px;
     border-radius: 5px 5px;
 }
-
-.container-button{
-    display: flex;
-    gap: 10px;
-    text-align: center;
-}
-
 
 button:hover{
     cursor: pointer;
